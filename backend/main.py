@@ -48,3 +48,5 @@ def mekanlari_getir():
             
     except Exception as e:
         return {"durum": "HATA ❌", "hata_detayi": str(e)}
+    
+    #uvicorn main:app --reload
